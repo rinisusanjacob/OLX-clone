@@ -7,7 +7,7 @@ import Context from './store/Context'
 ReactDOM.render(
 <FirebaseContext.Provider value={{firebase}}>
     <Context>
-        <App />
+        <App/>
     </Context>
 
 
